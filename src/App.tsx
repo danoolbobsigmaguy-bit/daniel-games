@@ -70,6 +70,7 @@ export default function App() {
     iframe.style.height = '100%';
     iframe.style.border = 'none';
     iframe.style.backgroundColor = 'black';
+    iframe.allow = 'autoplay; gamepad; keyboard; focus-without-user-activation; fullscreen';
     
     doc.body.style.margin = '0';
     doc.body.style.padding = '0';
@@ -237,6 +238,7 @@ export default function App() {
                   src={selectedGame.url}
                   className="w-full h-full border-none"
                   title={selectedGame.title}
+                  allow="autoplay; gamepad; keyboard; focus-without-user-activation; fullscreen"
                   allowFullScreen
                 />
                 

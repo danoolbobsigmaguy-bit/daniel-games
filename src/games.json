@@ -3,77 +3,28 @@
     "id": "slope",
     "title": "Slope",
     "thumbnail": "https://picsum.photos/seed/slope/400/300",
-    "url": "https://kdata1.com/2020/05/slope/",
+    "url": "https://webglmath.github.io/slope/",
     "category": "Action"
-  },
-  {
-    "id": "1v1-lol",
-    "title": "1v1.LOL",
-    "thumbnail": "https://picsum.photos/seed/1v1/400/300",
-    "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/ce-v1.0@main/1v1.xml",
-    "category": "Shooter"
   },
   {
     "id": "retro-bowl",
     "title": "Retro Bowl",
     "thumbnail": "https://picsum.photos/seed/retro/400/300",
-    "url": "https://game316009.konggames.com/gamez/0031/6009/live/index.html",
+    "url": "https://webglmath.github.io/retro-bowl/",
     "category": "Sports"
   },
   {
     "id": "bitlife",
     "title": "BitLife",
     "thumbnail": "https://picsum.photos/seed/bitlife/400/300",
-    "url": "https://bitlifeonline.io/",
+    "url": "https://webglmath.github.io/bitlife/",
     "category": "Simulation"
   },
   {
-    "id": "minecraft",
-    "title": "Minecraft Classic",
-    "thumbnail": "https://picsum.photos/seed/mc/400/300",
-    "url": "https://classic.minecraft.net/",
-    "category": "Adventure"
-  },
-  {
-    "id": "tunnel-rush",
-    "title": "Tunnel Rush",
-    "thumbnail": "https://picsum.photos/seed/tunnel/400/300",
-    "url": "https://tunnelrush.io/",
-    "category": "Action"
-  },
-  {
-    "id": "drift-hunters",
-    "title": "Drift Hunters",
-    "thumbnail": "https://picsum.photos/seed/drift/400/300",
-    "url": "https://webglmath.github.io/drift-hunters/",
-    "category": "Racing"
-  },
-  {
-    "id": "basket-stars",
-    "title": "Basket Stars",
-    "thumbnail": "https://picsum.photos/seed/basket/400/300",
-    "url": "https://v6p9d9t4.ssl.hwcdn.net/html/1735043/index.html",
-    "category": "Sports"
-  },
-  {
-    "id": "crossy-road",
-    "title": "Crossy Road",
-    "thumbnail": "https://picsum.photos/seed/crossy/400/300",
-    "url": "https://crossyroad.io/",
-    "category": "Arcade"
-  },
-  {
-    "id": "subway-surfers",
-    "title": "Subway Surfers",
-    "thumbnail": "https://picsum.photos/seed/subway/400/300",
-    "url": "https://subwaysurfers.io/",
-    "category": "Arcade"
-  },
-  {
-    "id": "temple-run-2",
-    "title": "Temple Run 2",
-    "thumbnail": "https://picsum.photos/seed/temple/400/300",
-    "url": "https://templerun2.io/",
-    "category": "Arcade"
+    "id": "1v1-lol",
+    "title": "1v1.LOL",
+    "thumbnail": "https://picsum.photos/seed/1v1/400/300",
+    "url": "https://webglmath.github.io/1v1-lol/",
+    "category": "Shooter"
   }
 ]
