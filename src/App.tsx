@@ -22,6 +22,17 @@ export default function App() {
   const [activeCategory, setActiveCategory] = useState('All');
   const [isFullscreen, setIsFullscreen] = useState(false);
 
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Panic Key: Press 'P' to instantly redirect to Google
+      if (e.key.toLowerCase() === 'p') {
+        window.location.href = 'https://www.google.com';
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
+
   const categories = useMemo(() => {
     const cats = ['All', ...new Set(gamesData.map(g => g.category))];
     return cats;
@@ -241,6 +252,22 @@ export default function App() {
                   allow="autoplay; gamepad; keyboard; focus-without-user-activation; fullscreen"
                   allowFullScreen
                 />
+                
+                {/* Blocked Game Help Overlay */}
+                <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/90 opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity z-10 p-8 text-center">
+                  <Info className="w-12 h-12 text-brand mb-4" />
+                  <h3 className="text-xl font-bold mb-2">Game not loading?</h3>
+                  <p className="text-white/60 text-sm max-w-md mb-6">
+                    If you see "Refused to connect" or a blank screen, your network is blocking this game's source. 
+                    Click the <span className="text-brand font-bold">CLOAK MODE</span> button above to bypass the filter!
+                  </p>
+                  <button 
+                    onClick={() => openAboutBlank(selectedGame)}
+                    className="bg-brand text-black px-6 py-2 rounded-full font-bold hover:scale-105 transition-transform"
+                  >
+                    TRY CLOAK MODE NOW
+                  </button>
+                </div>
                 
                 {/* Overlay controls for better UX */}
                 <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">

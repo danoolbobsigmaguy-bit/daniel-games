@@ -3,28 +3,56 @@
     "id": "slope",
     "title": "Slope",
     "thumbnail": "https://picsum.photos/seed/slope/400/300",
-    "url": "https://webglmath.github.io/slope/",
+    "url": "https://kdata1.com/2020/05/slope/",
     "category": "Action"
   },
   {
     "id": "retro-bowl",
     "title": "Retro Bowl",
     "thumbnail": "https://picsum.photos/seed/retro/400/300",
-    "url": "https://webglmath.github.io/retro-bowl/",
+    "url": "https://game316009.konggames.com/gamez/0031/6009/live/index.html",
     "category": "Sports"
   },
   {
     "id": "bitlife",
     "title": "BitLife",
     "thumbnail": "https://picsum.photos/seed/bitlife/400/300",
-    "url": "https://webglmath.github.io/bitlife/",
+    "url": "https://bitlifeonline.io/",
     "category": "Simulation"
   },
   {
     "id": "1v1-lol",
     "title": "1v1.LOL",
     "thumbnail": "https://picsum.photos/seed/1v1/400/300",
-    "url": "https://webglmath.github.io/1v1-lol/",
+    "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/ce-v1.0@main/1v1.xml",
     "category": "Shooter"
+  },
+  {
+    "id": "basketball-legends",
+    "title": "Basketball Legends 2020",
+    "thumbnail": "https://picsum.photos/seed/basketball/400/300",
+    "url": "https://v6p9d9t4.ssl.hwcdn.net/html/1587053/index.html",
+    "category": "Sports"
+  },
+  {
+    "id": "football-bros",
+    "title": "Football Bros",
+    "thumbnail": "https://picsum.photos/seed/football/400/300",
+    "url": "https://v6p9d9t4.ssl.hwcdn.net/html/8834488/index.html",
+    "category": "Sports"
+  },
+  {
+    "id": "subway-surfers",
+    "title": "Subway Surfers",
+    "thumbnail": "https://picsum.photos/seed/subway/400/300",
+    "url": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/ce-v1.0@main/subway-surfers.xml",
+    "category": "Arcade"
+  },
+  {
+    "id": "space-waves",
+    "title": "Space Waves",
+    "thumbnail": "https://picsum.photos/seed/spacewaves/400/300",
+    "url": "https://v6p9d9t4.ssl.hwcdn.net/html/9112345/index.html",
+    "category": "Arcade"
   }
 ]
